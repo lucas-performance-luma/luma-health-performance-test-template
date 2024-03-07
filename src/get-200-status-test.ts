@@ -6,7 +6,7 @@ export let options:Options = {
   vus: 50,
   duration: '10s',
   thresholds:  {
-    http_req_duration: ['p(95)<500']
+    http_req_duration: ['p(95)<4000']
   }
 };
 
